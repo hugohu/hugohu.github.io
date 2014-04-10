@@ -1,41 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="initial-scale=1, minimal-ui">
-	<meta http-equiv="cleartype" content="on">
-	<meta name="google-site-verification" content="MsgaWOO7dS9bwFd5Bv8txWmaLqz1hBydQixMwl5Xl_U">
-	<title>{{ page.title }} {% if page.title != "Huugle" %} - Huugle{% endif %}</title>
-	{% if page.description %}<meta name="description" content="{{ page.description }}">{% else %}<meta name="description" content="{{ site.description }}">{% endif %}
-	<link rel="shortcut icon" href="/favicon.ico">
-	<link rel="alternate" type="application/rss+xml" href="/feed/" title="Plausible Thought Feed">
-	<link href="{{ site.url }}{{ page.url }}" rel="canonical">
-	<link rel="stylesheet" href="/assets/css/styles.css">
-
-	<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-</head>
-
-<body>
-
-<div class="container grid">
-<div class="unit four-fifths">
-
-<header class="page-head">
-	<nav class="page-nav">
-		<a href="/" class="page-title">Huugle</a> <span>/</span>
-		<a href="/about/">About</a> <span>/</span> 
-		<a href="/feed/">Feed</a> <span>/</span> 
-		<a href="https://weibo.com/shunhu">@shunhu</a>
-	</nav>
-</header>
-
-{{ content }}
-
-</div>
-</div>
-
-</body>
-</html>
+{% include header.html %}
+{% assign post = page %}
+{% include post.html %}
+{% include footer.html %}

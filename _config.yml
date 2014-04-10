@@ -1,6 +1,6 @@
-name: Plausible Thought
-description: Plausible Thought is the blog of Marc Jenkins and focuses around web design and development.
-url: http://www.plausiblethought.net
-markdown: kramdown
-pygments: true
-permalink: /:title
+# Jekyll
+permalink: /:year/:title/
+paginate: 10
+exclude: []
+name: Jekyll Bootstrap
+baseurl: /jekyll-bootstrap
