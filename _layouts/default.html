@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="initial-scale=1, minimal-ui">
+	<meta http-equiv="cleartype" content="on">
+	<meta name="google-site-verification" content="MsgaWOO7dS9bwFd5Bv8txWmaLqz1hBydQixMwl5Xl_U">
+	<title>{{ page.title }} {% if page.title != "Plausible Thought" %} - Plausible Thought{% endif %}</title>
+	{% if page.description %}<meta name="description" content="{{ page.description }}">{% else %}<meta name="description" content="{{ site.description }}">{% endif %}
+	<script type="text/javascript" src="//use.typekit.net/yfz7bff.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	<link rel="author" href="https://plus.google.com/104411960158724762863/posts/">
+	<link rel="alternate" type="application/rss+xml" href="/feed/" title="Plausible Thought Feed">
+	<link href="{{ site.url }}{{ page.url }}" rel="canonical">
+	<link rel="stylesheet" href="/assets/css/styles.css">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@marcjenkins">
+	<meta name="twitter:title" content="{{ page.title }}">
+	{% if page.description %}
+	<meta name="twitter:description" content="{{ page.description }}">
+	{% else %}
+  	<meta name="twitter:description" content="{{ site.description }}">
+  	{% endif %}
+	<meta name="twitter:creator" content="@marcjenkins">
+	<meta name="twitter:domain" content="plausiblethought.net">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-353904-9']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+
+<div class="container grid">
+<div class="unit four-fifths">
+
+<header class="page-head">
+	<nav class="page-nav">
+		<a href="/" class="page-title">Plausible Thought</a> <span>/</span>
+		<a href="/about/">About</a> <span>/</span> 
+		<a href="/feed/">Feed</a> <span>/</span> 
+		<a href="https://twitter.com/marcjenkins">Twitter</a>
+	</nav>
+</header>
+
+{{ content }}
+
+</div>
+</div>
+
+</body>
+</html>
