@@ -2,7 +2,7 @@
 
 title: 旧的不去,新的不来
 layout: default
-categories: first-category second
+categories: 随笔
 
 ---
 
