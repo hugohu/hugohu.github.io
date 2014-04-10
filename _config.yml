@@ -1,6 +1,7 @@
 # Jekyll
 permalink: /:year/:title/
 paginate: 10
+url: http://www.plausiblethought.net
 exclude: []
 name: 形而上学
 baseurl: /
