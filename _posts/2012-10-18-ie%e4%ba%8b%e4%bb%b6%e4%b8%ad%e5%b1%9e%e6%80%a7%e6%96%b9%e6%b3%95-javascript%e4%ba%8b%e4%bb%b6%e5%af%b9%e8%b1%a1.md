@@ -1,10 +1,11 @@
 ---
-title: IE事件中属性/方法 -JavaScript事件对象
-author: admin
 layout: post
-permalink: /?p=22
-categories:
-  - 转载的
+title: IE事件中属性/方法 -JavaScript事件对象
+date: 2012-10-18 10:15
+author: admin
+comments: true
+categories: [转载的]
+tags: []
 ---
 文章编辑： 国粹小生
 
@@ -16,13 +17,13 @@ categories:
 
 特性/方法：button、类型：Integer、可读/可写：R/W、描述：对于特定的鼠标事件，表示按下的鼠标按钮：
 
-0-未按下按钮  
-1-按下左键  
-2-按下右键  
-3-同时按下左右按钮  
-4-按下中键  
-5-按下左键和中键  
-6-按下右键和中键  
+0-未按下按钮
+1-按下左键
+2-按下右键
+3-同时按下左右按钮
+4-按下中键
+5-按下左键和中键
+6-按下右键和中键
 7-同时按下左中右键
 
 特性/方法：cancelBubble、类型：Boolean、可读/可写：R/W、描述：开发人员将其设为true时，将会停止事件向上冒泡
