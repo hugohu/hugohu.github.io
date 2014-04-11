@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://blog.davidebbo.com/sitemap.xml 
+Sitemap: http://huugle.org/sitemap.xml 
