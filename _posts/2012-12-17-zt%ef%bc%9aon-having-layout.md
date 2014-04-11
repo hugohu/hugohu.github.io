@@ -1,11 +1,9 @@
 ---
+
 layout: post
 title: zt：On having layout
-date: 2012-12-17 16:28
-author: admin
-comments: true
 categories: [转载的]
-tags: []
+
 ---
 出处：http://old9.blogsome.com/2006/04/11/onhavinglayout
 
