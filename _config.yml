@@ -1,7 +1,0 @@
-# Jekyll
-permalink: /:year-:month-:day-:title
-pygments: true
-paginate: 10
-exclude: []
-name: 形而上学
-baseurl: http://www.huugle.org
