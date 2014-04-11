@@ -1,7 +1,7 @@
 ---
 
 title: Title goes here
-layout: default
+layout: post
 
 ---
 
