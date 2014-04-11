@@ -1,7 +1,7 @@
 ---
 
 title: 旧的不去,新的不来
-layout: psot
+layout: post
 categories: 随笔
 
 ---
