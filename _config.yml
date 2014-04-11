@@ -1,3 +1,38 @@
-name: 形而上学
+#
+# Blog Settings
+#
+name: Huugle
+description:
+url: http://huugle.org
+title: 形而上学
+subtitle: 形而上学谓之道
+gravatar_url: http://en.gravatar.com/userimage/42608009/2a6641da451aefab340cc04785a69d97.jpg?size=200
+subscribe_rss: http://feeds.feedburner.com/DavidEbbo
+encoding: utf-8
+
+# Github repositories
+github_user: hugohu
+github_repo_url: https://github.com/hugohu/hugohu.github.io/
+
+# Twitter
+twitter_user: hugohu
+twitter_tweet_button: false
+
+# Disqus Comments
+disqus_short_name: davidebbo
+disqus_show_comment_count: false
+
+# Google Analytics
+google_analytics_tracking_id: UA-49932176-1
+google_analytics_domain: huugle.org
+
+
+#
+# Jekyll Settings
+#
 markdown: redcarpet
 pygments: true
+permalink: /:year/:month/:title.html
+paginate: 20
+paginate_path: "page/:num"
+category_dir: categories
