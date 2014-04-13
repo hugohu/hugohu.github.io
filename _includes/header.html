@@ -1,6 +1,6 @@
 <div class="profilepic">
 	{% if site.gravatar_url %}
-	<img src="{{ site.gravatar_url }}?s=160" alt="Profile Picture" style="width: 160px;" />
+	<img src="{{ site.gravatar_url }}?size=160" alt="Profile Picture" style="width: 160px;" />
 	{% endif %}
 </div>
 <hgroup>
@@ -15,11 +15,11 @@
 		{% if site.email %}
 			<a class="email" href="mailto:{{ site.email }}" title="Email">Email</a>
 		{% endif %}
-		{% if site.twitter_user %}
-			<a class="twitter" href="http://weibo.com/{{ site.twitter_user }}" title="weibo">weibo</a>
-		{% endif %}
 		{% if site.github_user %}
 			<a class="github" href="https://github.com/{{ site.github_user }}" title="GitHub">GitHub</a>
+		{% endif %}
+		{% if site.twitter_user %}
+			<a class="twitter" href="http://weibo.com/{{ site.twitter_user }}" title="weibo">weibo</a>
 		{% endif %}
 <!-- 		{% if site.subscribe_rss %}
 			<a class="rss" href="{{ site.subscribe_rss }}" title="RSS">RSS</a>
