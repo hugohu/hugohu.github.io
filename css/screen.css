@@ -206,7 +206,7 @@ a {
 #sub-nav .social a:hover { opacity: 1 }
 #sub-nav .social a.twitter {
     background: url('/images/social/twitter.png?1385702816') center no-repeat #e6162d;
-    border: 1px solid #55CFF8;
+    border: 1px solid #a82b38;
 }
 #sub-nav .social a.twitter:hover { border: 1px solid #24c1f6 }
 #sub-nav .social a.github {
