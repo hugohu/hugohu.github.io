@@ -8,7 +8,7 @@ title: 形而上学
 subtitle: 形而上者谓之道，形而下者谓之器
 author:Huugle
 gravatar_url: http://en.gravatar.com/userimage/42608009/2a6641da451aefab340cc04785a69d97.jpg
-#subscribe_rss: http://feeds.feedburner.com/DavidEbbo
+subscribe_rss: http://feed.feedsky.com/huugle
 encoding: utf-8
 
 # Github repositories
@@ -27,6 +27,8 @@ disqus_show_comment_count: true
 google_analytics_tracking_id: UA-49932176-1
 google_analytics_domain: huugle.org
 
+#email 
+email:gushunhu@163.com
 
 #
 # Jekyll Settings
