@@ -106,12 +106,11 @@ a {
     #header h1 a { margin: auto }
 }
 #header h2 {
-    font-family: "Open Sans";
-    font-style: italic;
+    
     font-weight: 400;
 }
 #main-nav {
-    font-family: "Open Sans";
+    
     float: left;
     margin-left: 30px;
 }
@@ -500,7 +499,7 @@ h2 { color: #555 }
 .left-col,
 ul li a { -webkit-transition: all .2s ease-in;-moz-transition:all .2s ease-in;-o-transition:all .2s ease-in;-ms-transition:all .2s ease-in;transition:all .2s ease-in;color:#333 }
 .container { position: relative;min-height:100% }
-.container .mid-col { position: absolute;right:0;min-height:100%;width:77%;background:#fff }
+.container .mid-col { position: absolute;right:0;min-height:100%;width:82%;background:#fff }
 .container .mid-col #banner { width: 100% }
 .container .mid-col #banner small { margin-right: 70px }
 .container .mid-col footer.inner { text-align: center;margin:0px 70px 0px 40px;width:auto }
@@ -526,7 +525,7 @@ ul li a { -webkit-transition: all .2s ease-in;-moz-transition:all .2s ease-in;-o
 #content article h1.title a { color: #333;-webkit-transition:color 0.3s;-moz-transition:color 0.3s;-o-transition:color 0.3s;transition:color 0.3s }
 #content div.archives h1.title { font-size: 3em }
 .container .mid-col footer { width: 100% }
-.left-col { width: 23%;position:fixed;height:100% }
+.left-col { width: 18%;position:fixed;height:100% }
 .left-col .intrude-less { width: 80% }
 .left-col #header { width: 100%;padding:20% 0% 0% 15% }
 .left-col #header #main-nav { margin-top: 30px;font-size:1.5em }
