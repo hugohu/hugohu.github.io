@@ -86,9 +86,8 @@ a {
 }
 #header a:hover { color: #258fb8 }
 #header h1 {
-    font-family: "Open Sans";
     font-weight: 400;
-    font-size: 4em;
+    font-size: 2.5em;
     line-height: 0.9;
     float: left;
     width: 100%;
@@ -510,8 +509,8 @@ ul li a { -webkit-transition: all .2s ease-in;-moz-transition:all .2s ease-in;-o
 #content article { border-top: none;padding:80px 0px }
 #content article .title { margin-left: 0px;font-size:4em;font-weight:800;line-height:1em }
 #content article.single-post .title { text-align: center;text-decoration:underline }
-#content article .entry-content { margin-left: 0px;line-height:1.4em;font-size:1.5em }
-#content article .entry-content p { margin-top: 30px }
+#content article .entry-content { margin-left: 0px;line-height:1.4em;font-size:1.3em }
+#content article .entry-content p { margin-top:15px }
 #content article .entry-content .github-widget p { margin-top: 0px }
 #content article .entry-content .more-link:before { line-height: 1.2em }
 #content article .entry-content .more-link { padding-left: 0px }
@@ -521,9 +520,9 @@ ul li a { -webkit-transition: all .2s ease-in;-moz-transition:all .2s ease-in;-o
 #content article .entry-content blockquote p { margin-top: 0px }
 #content article .entry-content table { line-height: 1.2em }
 #content article .entry-content table td { text-align: left }
-#content article .meta { color: #999;font-family:"Open Sans";font-weight:100;font-size:1.2em }
+#content article .meta { color: #999;font-family:"Open Sans";font-weight:100;font-size:1.0em ;margin-top: 15px;}
 #content article .meta .date { display: inline }
-#content article h1.title { font-family: "Open Sans";font-weight:800;font-size:5em;padding-bottom:15px; }
+#content article h1.title { font-weight:800;font-size:2.5em;padding-bottom:15px; }
 #content article h1.title a { color: #333;-webkit-transition:color 0.3s;-moz-transition:color 0.3s;-o-transition:color 0.3s;transition:color 0.3s }
 #content div.archives h1.title { font-size: 3em }
 .container .mid-col footer { width: 100% }
@@ -564,7 +563,7 @@ ul li a { -webkit-transition: all .2s ease-in;-moz-transition:all .2s ease-in;-o
     }
     .container .mid-col .mid-col-container { padding: 15px 15px; overflow: hidden; }
     #content article { padding-top: 15px}
-    #content article .meta { float: none }
+    #content article .meta { float: none; }
     #content article h1.title { font-weight: 700; font-size:2em; overflow: hidden; }
     #content article .meta span { display: block; font-size: 0.9em; }
     #content article .meta span.edit { display: none }
