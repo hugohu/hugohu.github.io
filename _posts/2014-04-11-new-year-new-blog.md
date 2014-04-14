@@ -12,3 +12,9 @@ tags: [随笔]
 
 一如既往的记录一些琐碎的生活跟一些琐碎的技术.
 
+test code
+
+``` html
+<div class="hd">hello world</div>
+```
+
