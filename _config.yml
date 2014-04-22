@@ -26,6 +26,8 @@ disqus_show_comment_count: true
 google_analytics_tracking_id: UA-49932176-1
 google_analytics_domain: huugle.org
 
+# duoshuo
+duoshuo_short_name: huugle
 
 #
 # Jekyll Settings
