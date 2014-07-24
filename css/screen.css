@@ -71,8 +71,8 @@ a {
 #header {
     height: 30px;
     padding: 30px 0;
-    border-bottom: 1px solid #ddd;
-    line-height: 30px;
+    border-bottom: 1px solid #eee;
+    line-height: 2.2;
 }
 @media screen and (max-width: 1040px) { 
     #header {
@@ -82,7 +82,7 @@ a {
     }
 }
 #header a {
-    color: #ddd;
+    color: #eee;
     -webkit-transition: color 0.3s;
     -moz-transition: color 0.3s;
     -o-transition: color 0.3s;
@@ -227,7 +227,7 @@ a {
     line-height: 20px;
     position: relative;
     border-top: 1px solid #fff;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #eee;
 }
 #pagenavi a:hover { text-decoration: underline }
 #pagenavi .prev,
@@ -261,7 +261,7 @@ a {
     #pagenavi .center { display: none }
 }
 article {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #eee;
     border-top: 1px solid #fff;
     padding: 30px 0;
     position: relative;
@@ -335,7 +335,7 @@ article .entry-content video {
     height: auto;
 }
 article .entry-content blockquote {
-    background: #ddd;
+    background: #eee;
     border-left: 5px solid #ccc;
     padding: 15px 20px;
     margin-top: 10px;
@@ -357,7 +357,7 @@ article .entry-content table th {
     margin: 0;
 }
 article .entry-content table th {
-    background: #ddd;
+    background: #eee;
     padding: 0 15px;
 }
 article .entry-content table tr:nth-of-type(2n) { background: #f9f9f9 }
@@ -398,8 +398,6 @@ article .entry-content .video-container embed {
 }
 .share {
     padding: 15px 0;
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #ddd;
 }
 .post h1.title,
 .post .entry-content { margin-bottom: 0 }
@@ -417,6 +415,7 @@ article .entry-content .video-container embed {
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
+    margin-right: 10px;
 }
 .meta a:hover { color: #666 }
 .meta .date,
@@ -469,11 +468,10 @@ article .entry-content .video-container embed {
 #content article .entry-content .archives ul li div.meta span.date,
 #content article .entry-content .archives ul li div.meta span.edit { display: none }
 #comment {
-    padding: 30px 0;
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #ddd;
+    padding:15px 0 30px 0;
 }
 #comment h1.title {
+    display: none;
     font-size: 25px;
     font-weight: 300;
     line-height: 35px;
@@ -505,13 +503,13 @@ ul li a { -webkit-transition: all .2s ease-in;-moz-transition:all .2s ease-in;-o
 .container .mid-col { position: absolute;right:0;min-height:100%;width:82%;background:#fff }
 .container .mid-col #banner { width: 100% }
 .container .mid-col #banner small { margin-right: 70px }
-.container .mid-col footer.inner { text-align: center;margin:0px 70px 0px 40px;width:auto }
-.container .mid-col .mid-col-container { padding: 0px 70px 0px 100px;max-width:700px }
+.container .mid-col footer.inner { text-align: center;margin:0px 40px 0px 40px;width:auto }
+.container .mid-col .mid-col-container { padding: 0px 40px 0px 40px;max-width:760px }
 #content { width: 100% }
 #content article { border-top: none;padding:80px 0px }
 #content article .title { margin-left: 0px;font-size:4em;font-weight:800;line-height:1em }
 #content article.single-post .title { text-align: center;text-decoration:underline }
-#content article .entry-content { margin-left: 0px;line-height:1.4em;font-size:1.3em }
+#content article .entry-content { margin-left: 0px;line-height:1.6em;font-size:1.3em }
 #content article .entry-content p { margin-top:15px }
 #content article .entry-content .github-widget p { margin-top: 0px }
 #content article .entry-content .more-link:before { line-height: 1.2em }
@@ -522,9 +520,9 @@ ul li a { -webkit-transition: all .2s ease-in;-moz-transition:all .2s ease-in;-o
 #content article .entry-content blockquote p { margin-top: 0px }
 #content article .entry-content table { line-height: 1.2em }
 #content article .entry-content table td { text-align: left }
-#content article .meta { color: #999;font-family:"Microsoft YaHei";font-weight:100;font-size:1.0em ;margin-top: 15px;}
+#content article .meta { color: #999;font-family:"Microsoft YaHei";font-weight:100;font-size:1.0em ;margin-top:5px;}
 #content article .meta .date { display: inline }
-#content article h1.title { font-weight:800;font-size:2.5em;padding-bottom:15px; }
+#content article h1.title { font-weight:800;font-size:2.0em;padding-bottom:15px; }
 #content article h1.title a { color: #333;-webkit-transition:color 0.3s;-moz-transition:color 0.3s;-o-transition:color 0.3s;transition:color 0.3s }
 #content div.archives h1.title { font-size: 3em }
 .container .mid-col footer { width: 100% }
@@ -587,8 +585,11 @@ a:hover { -webkit-transition: color 0.3s;-moz-transition:color 0.3s;-o-transitio
 #content article h1.title a:hover,
 .left-col a:hover { color: #4466c5 }
 #page-navigation {
+    font-size: 1.2em;
     font-family: arial;
     width: 100%;
 }
 #page-navigation div { display: inline-block }
 #page-navigation div.next { float: right }
+
+.#ds-thread #ds-reset .ds-powered-by{display: none!important;}
