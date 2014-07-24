@@ -450,7 +450,7 @@ article .entry-content .video-container embed {
 .meta .tags:before { content: "\f02c" }
 .meta .comments:before { content: "\f075" }
 .meta .edit:before { content: "\f044" }
-#content article .entry-content .archives { font-family: "Open Sans" }
+#content article .entry-content .archives { font-family: "Microsoft YaHei" }
 #content article .entry-content .archives .year { font-size: 1.1em }
 #content article .entry-content .archives h3.title {
     display: inline-block;
@@ -522,7 +522,7 @@ ul li a { -webkit-transition: all .2s ease-in;-moz-transition:all .2s ease-in;-o
 #content article .entry-content blockquote p { margin-top: 0px }
 #content article .entry-content table { line-height: 1.2em }
 #content article .entry-content table td { text-align: left }
-#content article .meta { color: #999;font-family:"Open Sans";font-weight:100;font-size:1.0em ;margin-top: 15px;}
+#content article .meta { color: #999;font-family:"Microsoft YaHei";font-weight:100;font-size:1.0em ;margin-top: 15px;}
 #content article .meta .date { display: inline }
 #content article h1.title { font-weight:800;font-size:2.5em;padding-bottom:15px; }
 #content article h1.title a { color: #333;-webkit-transition:color 0.3s;-moz-transition:color 0.3s;-o-transition:color 0.3s;transition:color 0.3s }
@@ -581,7 +581,7 @@ article table.matrix th { font-size: 0.7em;font-family:'Trebuchet MS','Lucida Sa
 article table.matrix pre.csharpcode { border: none;font-size:1.1em }
 article table.matrix td { background-color: #fff }
 article table.matrix th { background-color: #ffd }
-ul.categories { font-family: "Open Sans" }
+ul.categories { font-family: "Microsoft YaHei" }
 ul.categories span.size { font-size: 0.7em }
 a:hover { -webkit-transition: color 0.3s;-moz-transition:color 0.3s;-o-transition:color 0.3s;transition:color 0.3s;color:#4466c5 }
 #content article h1.title a:hover,
