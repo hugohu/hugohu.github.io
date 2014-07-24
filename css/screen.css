@@ -192,7 +192,5 @@ a:hover{-webkit-transition:color 0.3s;-moz-transition:color 0.3s;-o-transition:c
 #page-navigation div.next{float:right }
 /* duoshuo */
 #ds-thread #ds-reset .ds-powered-by{display:none!important;}
-#ds-thread #ds-reset li.ds-tab{visibility: hidden!important;}
-#ds-thread #ds-reset .ds-comments-info{margin-top: -40px!important;}
 
 
