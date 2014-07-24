@@ -2,7 +2,6 @@
 layout: post
 title:  "javascript高级程序设计-4.3 垃圾收集"
 comments: true
-categories:[读书笔记]
 tags: [读书笔记,javascript高级程序设计,作用域]
 ---
 ##4.3 垃圾收集
