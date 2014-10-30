@@ -4,10 +4,6 @@
 // @version      0.1
 // @description  test
 // @author       huugle
-// @match        http://*.baidu.com/*
+// @match        *
 // @grant        none
 // ==/UserScript==
-
-(function(){
-	console.log("test");
-})()
