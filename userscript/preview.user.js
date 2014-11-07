@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         preview
 // @namespace    http://huugle.org/userscript/
-// @version      0.1
+// @version      0.2
 // @description  preview
 // @author       huugle
 // @match        http://www.dressbee-ceshi.com/all-you-need-know*
@@ -52,9 +52,30 @@ $('body').append(templ);
 	$(document).on("click","#user-preview-open",function(e){
 		$("#user-preview").toggleClass("open");
 	});
-	$("#text").on("keyup",function(e){
-		var text=$(this).val();
-		$(".tab-bd .tab-item").eq(0).html(text);
-		$("nav li").eq(0).trigger("click");
+	  function setnav(_this){
+        var topnav=_this.find(".topnav");
+        if(topnav.length==0){
+         _this.prepend('<div class="topnav-box" data-toggle-click="anchor"><div class="topnav" data-toggle-click="actived" data-roll="follow"></div></div>');   
+         topnav=_this.find(".topnav");
+          var temphtml="";
+          var _id=_this.find("[id]");
+           _id.each(function (index, elem) {
+            var id=$(this).attr("id"); 
+            var title=$(this).attr("title");
+           temphtml+= '<a href="#'+id+'">'+title+' </a>';
+        })
+        topnav.html(temphtml);
+        topnav.roll();
+        }      
+    }
+	var timeout;
+	$("#text").on("keyup change",function(e){
+		var _this=$(this);
+		clearTimeout(timeout)
+		timeout=setTimeout(function(){
+			var text=_this.val();
+		 var templHTML=$("<div>"+text+"</div>").find(".templ");
+        $(".tab-bd .tab-item").eq(0).html(templHTML.html());
+      },250)
 	})
 })
