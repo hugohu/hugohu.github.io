@@ -12,7 +12,7 @@ $(function(){
 '    CodeMirror',
 '    ',
 ' */',
-'.CodeMirror{font-family:monospace;height:600px;background-color: #fff;}',
+'.CodeMirror{font-family:monospace;height:850px;background-color: #fff;}',
 '.CodeMirror-scroll{overflow:auto}',
 '.CodeMirror-lines{padding:4px 0;line-height:1.2em}',
 '.CodeMirror pre{padding:0 4px}',
@@ -465,8 +465,9 @@ var edit = {
       function updatehtml() {
       	var text=editor.getValue();
       	var templHTML=$("<div>"+text+"</div>").find(".templ");
+      	console.log(templHTML.length)
       	if(templHTML.length){
-            $tar.html(templ.html());
+            item.html(templ.html());
          }else{
          	item.html(text);
          }
