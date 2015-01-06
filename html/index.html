@@ -3,11 +3,25 @@ layout: default
 ---
 
 	<div class="row">
-		<ul class="list">
-			<li>
-				<a href="reg/">
-					<img src="reg/screenshot.png" alt="" />
-				</a>
-			</li>
-		</ul>
+		<ul class="list" id="list"></ul>
+		<script src="config.js"></script>
+		<script>
+		//js里手写模板...by @王集鹄
+ 
+void function() {
+  function format(template, json) {
+    return template.replace(/#\{(.*?)\}/g, function(all, key) {
+      return json && (key in json) ? json[key] : "";
+    });
+  }
+ 
+var tmepl='<li><a href="#{url}"><img src="#{url}/screenshot.png" alt="" /></a></li>';
+var html=""
+for(var i=0;i<items.length;i++){
+html+=format(tmepl,{url:items[i]});
+}
+
+  document.getElementById('list').innerHTML = html;
+}();
+		</script>
 	</div>
