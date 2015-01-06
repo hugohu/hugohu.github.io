@@ -1,7 +1,7 @@
 @font-face{font-family:'FontAwesome';src:url("/css/img/font/fontawesome-webfont.eot");src:url("/css/img/font/fontawesome-webfont.eot?#iefix") format("embedded-opentype"),url("/css/img/font/fontawesome-webfont.woff") format("woff"),url("/css/img/font/fontawesome-webfont.ttf") format("truetype"),url("/css/img/font/fontawesome-webfont.svgz#FontAwesomeRegular") format("svg"),url("/css/img/font/fontawesome-webfont.svg#FontAwesomeRegular") format("svg");font-weight:normal;font-style:normal;}
 *{margin:0;padding:0;}
 html{height:100% }
-body{height:100%;color:#333;font-family:\5FAE\8F6F\96C5\9ED1,Cambria,"Times New Roman",Times,serif;font-weight:300;font-size:13px;background:#2d3339;}
+body{height:100%;color:#333;font-family:\5FAE\8F6F\96C5\9ED1,Cambria,"Times New Roman",Times,serif;font-weight:300;font-size:13px;}
 @media screen and (max-width:1040px){body{margin:0 20px }}
 @media screen and (max-width:600px){body{font-size:13px }}
 h1{font-size:1.5em }
@@ -125,7 +125,7 @@ h2{color:#555 }
 .container .mid-col #banner{width:100% }
 .container .mid-col #banner small{margin-right:70px }
 .container .mid-col footer.inner{text-align:center;margin:0 40px 0 40px;width:auto }
-.container .mid-col .mid-col-container{padding:0 40px 0 40px;max-width:760px;margin:0 auto }
+.container .mid-col .mid-col-container{padding:0 40px 0 40px;max-width:760px;}
 #content{width:100% }
 #content article{border-top:none;padding:80px 0 }
 #content article .title{margin-left:0;font-size:4em;font-weight:800;line-height:1em }
@@ -147,7 +147,7 @@ h2{color:#555 }
 #content article h1.title a{color:#333;-webkit-transition:color 0.3s;-moz-transition:color 0.3s;-o-transition:color 0.3s;transition:color 0.3s }
 #content div.archives h1.title{font-size:3em }
 .container .mid-col footer{width:100% }
-.left-col{width:200px;position:fixed;height:100% }
+.left-col{width:220px;position:fixed;height:100%;background-color:#2d3339; }
 /*.left-col .intrude-less{width:80% }*/
 .left-col #header{width:100%;padding:15px 0 0 30px }
 .left-col #header #main-nav{margin-top:30px;font-size:1.5em }
@@ -199,7 +199,7 @@ a:hover{-webkit-transition:color 0.3s;-moz-transition:color 0.3s;-o-transition:c
 *zoom: 1;
 padding:5px; 
 }
-
+.aboutme{display: none;}
 /* code	*/
 pre code{font-family:Consolas,Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;font-size:0.85em;line-height:1.5;display:block;background-color:#fefefe;border-radius:4px;color:#000;border:solid 1px #eee;margin:10px 0 8px 0;padding:5px 15px;overflow-x:auto;word-wrap:break-word;}
 
