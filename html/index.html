@@ -18,7 +18,7 @@ void function() {
 var tmepl='<li><a href="#{url}"><img src="#{url}/screenshot.png" alt="" /></a></li>';
 var html=""
 for(var i=0;i<items.length;i++){
-html+=format(tmepl,{url:items[i]});
+html+=format(tmepl,{url:items[i].path});
 }
 
   document.getElementById('list').innerHTML = html;
